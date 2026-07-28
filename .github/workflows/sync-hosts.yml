@@ -21,8 +21,8 @@ jobs:
           set -euo pipefail
 
           # 上游原始文件（通过 boki 代理镜像，避免 GitHub raw 在部分地区被墙）
-          HOSTS_URL="https://github.boki.moe/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt"
-          ADGUARD_URL="https://github.boki.moe/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Adguard.txt"
+          HOSTS_URL="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt"
+          ADGUARD_URL="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Adguard.txt"
 
           echo "::group::Download upstream"
           curl -fsSL "$HOSTS_URL" -o raw-hosts.txt
