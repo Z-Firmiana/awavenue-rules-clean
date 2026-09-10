@@ -1,9 +1,9 @@
 #Title: AWAvenue Ads Rule
 #--------------------------------------
-#Total lines: 1862
+#Total lines: 1872
 #Version: 1.7.6-release
-#Update time: 2026-09-08 21:10:07 UTC+8
-#Update content: 新增拦截微博/美图/百度等广告与隐私上报域名#214，感谢@VJMOD
+#Update time: 2026-09-09 23:35:30 UTC+8
+#Update content: 移除广告主投放后台域名ad.weibo.com与iadworkbench.apple.com，此类后台不属拦截范围
 
 #Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 #License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
@@ -95,8 +95,6 @@
 :: ad.toutiao.com
 0.0.0.0 ad.v3mh.com
 :: ad.v3mh.com
-0.0.0.0 ad.weibo.com
-:: ad.weibo.com
 0.0.0.0 ad.winrar.com.cn
 :: ad.winrar.com.cn
 0.0.0.0 ad.ximalaya.com
@@ -159,12 +157,16 @@
 :: adks.hpplay.cn
 0.0.0.0 adlink-api.huan.tv
 :: adlink-api.huan.tv
+0.0.0.0 adlog.vivo.com.cn
+:: adlog.vivo.com.cn
 0.0.0.0 adm.funshion.com
 :: adm.funshion.com
 0.0.0.0 admarketing.yahoo.net
 :: admarketing.yahoo.net
 0.0.0.0 admobile.top
 :: admobile.top
+0.0.0.0 adreq.vivo.com.cn
+:: adreq.vivo.com.cn
 0.0.0.0 ads-api-o.api.leiniao.com
 :: ads-api-o.api.leiniao.com
 0.0.0.0 ads-api.tiktok.com
@@ -381,8 +383,12 @@
 :: adx.tuia.cn
 0.0.0.0 adxlog-adnet.vivo.com.cn
 :: adxlog-adnet.vivo.com.cn
+0.0.0.0 adxlog.vivo.com.cn
+:: adxlog.vivo.com.cn
 0.0.0.0 adxserver.ad.cmvideo.cn
 :: adxserver.ad.cmvideo.cn
+0.0.0.0 adxstatic.vivo.com.cn
+:: adxstatic.vivo.com.cn
 0.0.0.0 aegis.qq.com
 :: aegis.qq.com
 0.0.0.0 aem.dentsuchina.cn
@@ -583,6 +589,8 @@
 :: books-analytics-events.apple.com
 0.0.0.0 bootpreload.uve.weibo.com
 :: bootpreload.uve.weibo.com
+0.0.0.0 brandadsstatic.vivo.com.cn
+:: brandadsstatic.vivo.com.cn
 0.0.0.0 browser.events.data.msn.cn
 :: browser.events.data.msn.cn
 0.0.0.0 browser.events.data.msn.com
@@ -733,6 +741,8 @@
 :: dsp-x.jd.com
 0.0.0.0 dsp.fcbox.com
 :: dsp.fcbox.com
+0.0.0.0 dsplog-adnet.vivo.com.cn
+:: dsplog-adnet.vivo.com.cn
 0.0.0.0 dualstack-logs.amap.com
 :: dualstack-logs.amap.com
 0.0.0.0 dxp.baidu.com
@@ -913,8 +923,6 @@
 :: iadmusicmat.music.126.net
 0.0.0.0 iadsdk.apple.com
 :: iadsdk.apple.com
-0.0.0.0 iadworkbench.apple.com
-:: iadworkbench.apple.com
 0.0.0.0 ifacelog.iqiyi.com
 :: ifacelog.iqiyi.com
 0.0.0.0 ifs.tanx.com
@@ -1407,8 +1415,8 @@
 :: saad.ms.zhangyue.net
 0.0.0.0 saas.hpplay.cn
 :: saas.hpplay.cn
-0.0.0.0 safebrowsing.urlsec.gg.com
-:: safebrowsing.urlsec.gg.com
+0.0.0.0 safebrowsing.urlsec.qq.com
+:: safebrowsing.urlsec.qq.com
 0.0.0.0 samsung-com.112.2o7.net
 :: samsung-com.112.2o7.net
 0.0.0.0 samsungads.com
@@ -1665,6 +1673,8 @@
 :: tracker.ai.xiaomi.com
 0.0.0.0 tracker.gitee.com
 :: tracker.gitee.com
+0.0.0.0 tracking-adnet.vivo.com.cn
+:: tracking-adnet.vivo.com.cn
 0.0.0.0 tracking.miui.com
 :: tracking.miui.com
 0.0.0.0 tracking.rus.miui.com
